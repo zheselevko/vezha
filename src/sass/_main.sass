@@ -148,7 +148,38 @@
 	height: 856px
 	background: url("../img/step_bg.png") center 0 no-repeat
 	background-size: cover
+	border-bottom: 1px solid #d3dce7
 	.container
 		padding: 50px 0
 		.step__list
 			width: 610px
+			.step__list_item
+				width: 100%
+				float: left
+				margin-bottom: 33px
+				.number
+					width: 60px
+					height: 60px
+					background-color: #004d8f
+					border-radius: 50%
+					text-align: center
+					color: white
+					+lbd
+					font-size: 30px
+					font-weight: 700
+					line-height: 60px
+					float: left
+				.content
+					height: 60px
+					float: left
+					padding-left: 40px
+					display: table
+					width: 505px
+					.text
+						display: table-cell
+						vertical-align: middle
+						color: #6987a4
+						+lt
+						font-size: 16px
+						font-weight: 300
+						line-height: 30px
