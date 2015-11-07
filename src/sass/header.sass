@@ -1,0 +1,162 @@
+.header
+	width: 100%
+	+box
+	+clr
+	background: url("../img/header_bg.png") center 0 no-repeat
+	background-size: contain
+	.work_box
+		width: 100%
+		height: 30px
+		background: #000
+		.container
+			padding: 7px 0
+			.work
+				color: #c5c5c5
+				+lit
+				font-size: 16px
+				line-height: 1
+	.top_box
+		width: 100%
+		background: rgba(10,74,129, 0.8)
+		height: 71px
+		.container
+			padding: 10px 0
+			.logo
+				position: relative
+				a
+					text-decoration: none
+					img
+						position: absolute
+						top: -25px
+						left: 0
+					h3
+						color: white
+						+lrg
+						text-transform: uppercase
+						font-size: 30px
+						padding-left: 115px
+						line-height: 48px
+			.callback
+				width: 330px
+				padding: 8px 0
+				.item
+					float: left
+					width: 50%
+					text-align: center
+					.tel
+						color: white
+						padding: 5px 0
+						+lbd
+						font-size: 18px
+					.button
+						width: 157px
+						height: 30px
+						border: 2px solid white
+						border-radius: 5px
+						display: inline-block
+						color: white
+						+lbd
+						font-size: 16px
+						line-height: 27px
+						text-decoration: none
+						&:hover
+							background-color: #4485d1
+							border: 2px solid #4485d1
+							border-radius: 5px
+	.info
+		width: 100%
+		+box
+		+clr
+		.container
+			text-align: center
+			padding: 205px 0 110px 0
+			h1
+				color: white
+				line-height: 1
+				margin-bottom: 70px
+				+lbd
+				font-size: 30px
+				text-transform: uppercase
+				font-weight: 700
+				span
+					+lt
+					font-weight: 300
+			.bottom
+				width: 100%
+				text-align: center
+				height: 82px
+				
+	.form
+		width: 100%
+		height: 155px
+		background-color: #004d8f
+		.container
+			width: 1100px
+			padding: 45px 0 0 0
+			.info
+				width: 273px
+				+box
+				+clr
+				float: left
+				color: white
+				
+				h3
+					+lrg
+					line-height: 1
+					font-size: 30px
+					font-weight: 400
+					margin-bottom: 25px
+				span
+					+lt
+					line-height: 1
+					font-size: 18px
+					font-weight: 300
+			.input-group
+				float: left
+				padding: 7px 0
+				margin-left: 80px
+				input
+					width: 310px
+					height: 64px
+					background-color: #4485d1
+					border-radius: 5px
+					padding: 0 95px
+					color: #85bdff
+					+lbd
+					font-size: 18px
+					font-weight: 700
+				input::-moz-placeholder
+					color: #85bdff
+				input::-webkit-input-placeholder
+					color: #85bdff
+				input:-ms-input-placeholder
+					color: #85bdff
+			.button
+				padding: 7px 0
+				input
+					width: 200px
+					height: 64px
+					border: 2px solid white
+					border-radius: 5px
+					background-color: transparent
+					color: white
+					+lbd
+					font-size: 18px
+					font-weight: 700
+					text-transform: uppercase
+.down
+	width: 85px
+	height: 82px
+	background-image: url('../img/icons.png')
+	background-position: -89px 0px
+	display: inline-block
+	&:hover
+		display: inline-block
+		width: 85px
+		height: 82px
+		background-image: url('../img/icons.png')
+		background-position: 0px 0px
+		// -webkit-transition: all 1s ease-in-out
+		// -moz-transition: all 1s ease-in-out
+		// -o-transition: all 1s ease-in-out
+		// transition: all 1s ease-in-out
