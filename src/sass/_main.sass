@@ -148,7 +148,15 @@
 	height: 856px
 	background: url("../img/step_bg.png") center 0 no-repeat
 	background-size: cover
-	border-bottom: 1px solid #d3dce7
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		right: 0
+		bottom: 0
+		width: 50%
+		height: 1px
+		background: #d3dce7
 	.container
 		padding: 50px 0
 		.step__list
@@ -183,3 +191,72 @@
 						font-size: 16px
 						font-weight: 300
 						line-height: 30px
+.works
+	width: 100%
+	+box
+	+clr
+	.container
+		padding: 95px 0 135px 0
+		.title
+			text-align: center
+			color: #004d8f
+			+lrg
+			font-size: 36px
+			font-weight: 400
+			line-height: 36px
+			margin-bottom: 95px
+		.list
+			width: 100%
+			+box
+			+clr
+			.row
+				width: 100%
+				+box
+				+clr
+				&:last-child
+					width: 820px
+					margin: 0 auto
+					.col
+						width: 50%
+				.col
+					float: left
+					width: 33.3%
+					text-align: center
+					.list__item
+						width: 265px
+						margin: 0 auto
+						.icons
+							position: relative
+							border-radius: 50%
+							margin: 0 auto 25px
+							width: 151px
+							height: 151px
+							background-color: white
+							box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1)
+							img
+								position: absolute
+								top: 50%
+								left: 50%
+							.phone
+								margin-top: -24px
+								margin-left: -24px
+							.book
+								margin-top: -23px
+								margin-left: -23px
+							.cup
+								margin-top: -28px
+								margin-left: -24px
+							.clock
+								margin-top: -23px
+								margin-left: -22px
+							.vesa
+								margin-top: -24px
+								margin-left: -28px
+						.text
+							color: #6987a4
+							+lrg
+							font-size: 16px
+							font-weight: 400
+							line-height: 24px
+
+
