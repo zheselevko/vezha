@@ -160,6 +160,24 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .works .container .list .row .col .list__item .icons .clock { margin-top: -23px; margin-left: -22px; }
 .works .container .list .row .col .list__item .icons .vesa { margin-top: -24px; margin-left: -28px; }
 .works .container .list .row .col .list__item .text { color: #6987a4; font-family: "latoreg"; font-size: 16px; font-weight: 400; line-height: 24px; }
+
+.footer { width: 100%; box-sizing: border-box; *zoom: 1; }
+.footer:after { content: " "; display: table; clear: both; }
+.footer .footer__form { width: 100%; height: 335px; background: url("../img/fot_bg.png") center 0 no-repeat; background-size: cover; }
+.footer .footer__form .container { padding: 75px 0 0 0; }
+.footer .footer__form .container .form { width: 765px; }
+.footer .footer__form .container .form .form__name { float: right; color: white; font-family: "latoreg"; font-weight: 400; line-height: 36px; font-size: 24px; text-align: right; margin-bottom: 70px; }
+.footer .footer__form .container .form .form__name span { display: block; font-size: 30px; }
+.footer .footer__form .container .form .input-group { float: left; padding: 7px 0; }
+.footer .footer__form .container .form .input-group input { width: 310px; height: 64px; background-color: #4485d1; border-radius: 5px; padding: 0 95px; color: #85bdff; font-family: "latobd"; font-size: 18px; font-weight: 700; }
+.footer .footer__form .container .form .input-group input::-moz-placeholder { color: #85bdff; }
+.footer .footer__form .container .form .input-group input::-webkit-input-placeholder { color: #85bdff; }
+.footer .footer__form .container .form .input-group input:-ms-input-placeholder { color: #85bdff; }
+.footer .footer__form .container .form .button { padding: 7px 0; }
+.footer .footer__form .container .form .button input { width: 200px; height: 64px; border: 2px solid white; border-radius: 5px; background-color: transparent; color: white; font-family: "latobd"; font-size: 18px; font-weight: 700; text-transform: uppercase; }
+.footer .copyright { width: 100%; background: #000; }
+.footer .copyright .container { padding: 29px 0 23px 0; }
+.footer .copyright .container p { color: #c5c5c5; font-family: "latoreg"; font-size: 16px; font-weight: 400; line-height: 36px; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
 

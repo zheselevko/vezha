@@ -258,5 +258,71 @@
 							font-size: 16px
 							font-weight: 400
 							line-height: 24px
-
-
+.footer
+	width: 100%
+	+box
+	+clr
+	.footer__form
+		width: 100%
+		height: 335px
+		background: url("../img/fot_bg.png") center 0 no-repeat
+		background-size: cover
+		.container
+			padding: 75px 0 0 0
+			.form
+				width: 765px
+				.form__name
+					float: right
+					color: white
+					+lrg
+					font-weight: 400
+					line-height: 36px
+					font-size: 24px
+					text-align: right
+					margin-bottom: 70px
+					span
+						display: block
+						font-size: 30px
+				.input-group
+					float: left
+					padding: 7px 0
+					input
+						width: 310px
+						height: 64px
+						background-color: #4485d1
+						border-radius: 5px
+						padding: 0 95px
+						color: #85bdff
+						+lbd
+						font-size: 18px
+						font-weight: 700
+					input::-moz-placeholder
+						color: #85bdff
+					input::-webkit-input-placeholder
+						color: #85bdff
+					input:-ms-input-placeholder
+						color: #85bdff
+				.button
+					padding: 7px 0
+					input
+						width: 200px
+						height: 64px
+						border: 2px solid white
+						border-radius: 5px
+						background-color: transparent
+						color: white
+						+lbd
+						font-size: 18px
+						font-weight: 700
+						text-transform: uppercase
+	.copyright
+		width: 100%
+		background: #000
+		.container
+			padding: 29px 0 23px 0
+			p
+				color: #c5c5c5
+				+lrg
+				font-size: 16px
+				font-weight: 400
+				line-height: 36px
